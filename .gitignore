@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+# Ignorar los checkpoints (autoguardados) que ensucian el historial
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Entornos Virtuales (Virtual Environments) ---
+# Es muy importante no subir tu entorno virtual, solo el requirements.txt
+env/
+venv/
+.env
+.venv/
+
+# --- Archivos de Sistema Operativo ---
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+
+# --- IDEs y Editores de Texto ---
+# Configuraciones personales de tu editor que no deben compartirse
+.vscode/
+.idea/
+
+# --- Datos (Opcional) ---
+# Si tus archivos CSV son muy pesados (>100MB) o confidenciales,
+# descomenta la siguiente línea para ignorar la carpeta de datos:
+# data/
+
+# Ignorar archivos comprimidos si los hubiera
+*.zip
+*.tar.gz
+*.rar
